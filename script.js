@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Em qual tipo de evento musical você se sentiria mais à vontade e animado(a)?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Um festival com várias bandas e um público pulando",
+                afirmacao: "Você valoriza a energia, o ritmo intenso e a atitude que este gênero carrega. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Um show de uma dupla ou artista solo, com a possibilidade de dançar colado(a) ou cantar junto",
+                afirmacao: "Seu gosto musical se inclina mais para o Sertanejo."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Ao dirigir em uma viagem longa, qual estilo você prefere para manter a energia ou relaxar?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "ritmo constante e a pegada enérgica das guitarras.",
+                afirmacao: "A música para você é, muitas vezes, uma forma de expressão poderosa, seja na crítica social, na introspecção profunda ou na euforia de um show lotado.."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "pelas melodias marcantes e letras que convidam a cantar junto.",
+                afirmacao: "Você se conecta com as melodias cativantes, a simplicidade e a emoção das letras deste gênero."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Qual sonoridade de instrumento principal mais te agrada?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "A distorção das guitarras elétricas, o baixo e a bateria.",
+                afirmacao: "O som das guitarras distorcidas, o baixo pulsante"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "O som do violão, da sanfona (acordeão) e da viola caipira.",
                 afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Qual dos temas a seguir você mais se identifica nas letras das músicas?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Críticas sociais, narrativas complexas ou sentimentos intensos e muitas vezes introspectivos.",
+                afirmacao: "Ne a batida marcante da bateria são a trilha sonora ideal para sua viagem, sua festa ou seu momento de reflexão."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Histórias de amor, sofrência (coração partido) e a vida no campo/cotidiana.",
+                afirmacao: "O som do violão, da sanfona e da viola te trazem uma sensação de proximidade e familiaridade, seja ao contar histórias de amor, sofrência (coração partido) ou celebrar a vida."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Qual tipo de música você prefere para animar uma festa ou churrasco?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "para dar um clima mais agitado e descontraído.",
+                afirmacao: "Você prefere uma música que te permita cantar alto em uma viagem, dançar em um churrasco ou se emocionar com uma letra bem contada."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Modas de viola, que são populares.",
+                afirmacao: "A música para você é paixão, tradição e um bom motivo para confraternizar. "
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "segundo suas respostas ..";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
